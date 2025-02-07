@@ -17,7 +17,7 @@ public class Exercise30 {
         try{
             divisionWithCustomException(3, 0);
         } catch (DivisionByZeroException e){
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
         System.out.println("Programa terminado");
 
